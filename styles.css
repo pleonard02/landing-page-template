@@ -1,3 +1,7 @@
 body {
     background-color: royalblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px lightskyblue;
 }
