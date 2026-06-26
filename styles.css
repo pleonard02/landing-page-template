@@ -1,20 +1,111 @@
 body {
-    background-color: royalblue;
+    background-color: #f4f1e6;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    color: white;
-    text-shadow: 2px 2px lightskyblue;
+    color: #8c8f83;
+    text-shadow: 1px 1px #1e2323;
 }
 
 .hero {
     padding: 5px 5px;
-    background-color: rgba(255, 255, 255, 0.95);
-    border: 3px solid navy;
+    background-color: #f4f1e6;
+    border: 3px solid #5b6660;
     border-radius: 5px;
     padding: 2rem;
     max-width: 700px;
     box-shadow: 
-    0 8px 20px rgba(11, 37, 69, 0.45),
-    0 0 15px rgba(25, 60, 120, 0.25);
-    color: #1f2937;
+    0 8px 20px #e2c255,
+    0 0 15px #c8a23a
+    color #8c8f83;
+}
+
+.hero h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #1e2323;
+}
+
+#musicBtn {
+    background: #c8a23a;
+    color: #1b3d34;
+    border: 3px solid #8e6b2e;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-family: Georgia, serif;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#musicBtn:hover {
+    background: #e2c255;
+    transform: scale(1.05);
+}
+
+.navbar {
+    position: relative;
+}
+
+.menu-btn {
+    background: #c8a23a;
+    color: #1b3d34;
+    border: 2px solid #5b6660;
+    padding: 12px 20px;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #f4f1e6;
+    border: 2px solid #5b6660;
+    width: 160px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0 .2);
+}
+
+.dropdown-menu li {
+    display: block;
+    padding: 12px;
+    color: #1b3d34;
+    text-decoration: none;
+    border-bottom: 1px solid #c8a23a;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #1b3d34;
+    font-family: Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.dropdown-menu li a:hover {
+    background: #dad7c2;
+    color: #f4f1e6;
+}
+
+.navbar:hover .dropdown-menu {
+    display: block;
 }
