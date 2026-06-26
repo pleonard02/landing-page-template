@@ -6,6 +6,32 @@ body {
     text-shadow: 1px 1px #1e2323;
 }
 
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.site-header {
+    background: linear-gradient(
+        to bottom,
+        #59794b,
+        #45653c,
+        #35512f
+    );
+    border-bottom:5px solid #c6a14b;
+    box-shadow:0 8px 18px rgba(0,0,0,.35);
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header {
     background: linear-gradient(
         90deg, 
@@ -21,14 +47,24 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
 }
 
-.header h1 {
-    color: #f8f5eb;
+.logo-area h1 {
+    margin: 0;
+    color: #f8f4e7;
     font-size: 4rem;
     text-shadow: 
-        3px 3px 0 #24352d,
-        6px 6px 12px rgba(0, 0, 0, .35);
-    margin: 0;
+        2px 2px 0 rgba(0,0,0,.35),
+        5px 5px 12px rgba(0,0,0,.45);
+    letter-spacing: 2px;
 }
+
+.tagline {
+    margin-top: 8px;
+    color: #d9d9d0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
 
 .hero {
     padding: 5px 5px;
