@@ -28,22 +28,36 @@
     <main>
         <div class="hero">
             <h2>Chicago's Carbide & Carbon Building</h2>
-            <img src="images/carbide_carbon.jpeg" alt="Carbide and Carbon Building in Chicago" width="500">
-            <p>At the height of Prohibition in 1929, the Carbide & Carbon Building was completed in its stunning Art Deco style on Chicago's famous Michigan Avenue. Designed by the Burnham Brothers, the building was intentionally modeled after a dark green Champagne bottle wrapped in gold foil—a symbol of prosperity, celebration, and optimism during one of the nation's most restrictive eras. At the time, Chicago Mayor William "Big Bill" Thompson openly opposed federal Prohibition enforcement, campaigning on promises to keep Chicago a "wet" city despite the nationwide ban on alcohol. Local legend even suggests that the building was designed to proclaim Chicago as the "wettest" city in the United States, though historians generally regard this story as folklore rather than documented fact.</p>
+            <img src="images/chicago_skyline.jpg" alt="Carbide and Carbon Building in Chicago" width="500">
             <audio id="music">
                 <source src="./audio/baronsaiband-my-slow-chicago-blues-song-339298.mp3" type="audio/mpeg" loop>
             </audio>
             <button id="musicBtn">Listen to Chicago Blues</button>
         </div>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="E.g.,Bill Thompson" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="E.g, bill@gmail.com" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+        </section>
     </main>
     <!-- FOOTER  -->        
-    <footer>
-        <ul>
-            Social Links
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>TikTok</li>
+    <footer class="site-footer">
+        <h2>Follow Sweet Home Chicago</h2>
+        <ul class="social-links">
+            <li><a href="#" aria-label="Visit our Facebook page">Facebook</a></li>
+            <li><a href="#" aria-label="Visit our Instagram page">Instagram</a></li>
+            <li><a href="#" aria-label="Visit our Tiktok">TikTok</a></li>
         </ul>
+        <p>&copy;2026 Sweet Home Chicago. All rights reserved.</p>
     </footer>
     <script src="./script.js"></script>
 </body>
