@@ -6,7 +6,7 @@ body {
     text-shadow: 2px 2px lightskyblue;
 }
 
-.hero-content {
+.hero {
   background-color: rgba(255, 255, 255, 0.95);
   border: 3px solid #3b1f5c;      /* Navy border */
   border-radius: 5px;
