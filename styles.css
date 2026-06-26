@@ -7,15 +7,14 @@ body {
 }
 
 .hero {
-  background-color: rgba(255, 255, 255, 0.95);
-  border: 3px solid #3b1f5c;      /* Navy border */
-  border-radius: 5px;
-  padding: 2rem;
-  max-width: 700px;
-
-  box-shadow:
-    0 10px 25px rgba(59, 31, 92, 0.45),
-    0 0 20px rgba(92, 52, 140, 0.25);
-
-  color: #1f2937;
+    padding: 5px 5px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 3px solid navy;
+    border-radius: 5px;
+    padding: 2rem;
+    max-width: 700px;
+    box-shadow: 
+    0 8px 20px rgba(11, 37, 69, 0.45),
+    0 0 15px rgba(25, 60, 120, 0.25);
+    color: #1f2937;
 }
