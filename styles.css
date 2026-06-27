@@ -86,7 +86,7 @@ main {
         rgba(7, 24, 39, .9) 0%,
         rgba(7, 24, 39, .7) 30%,
         rgba(7, 24, 39, .25) 55%,
-        rgba(7, 24, 39, 0) 80%,
+        rgba(7, 24, 39, 0) 80%
     );
     color: white;
 }
@@ -281,7 +281,7 @@ main {
     margin: 0 0 2rem;
 }
 
-.social li {
+.social-links li {
     margin: 0;
 }
 
@@ -307,4 +307,75 @@ main {
     color: rgba(255, 255, 255, .75);
     font-size: .9rem;
     margin-top: 1rem;
+}
+
+.testimonials {
+    background: var(--ivory);
+    padding: 4rem 2rem;
+}
+
+.testimonials h2 {
+    text-align: center;
+    color: var(--navy);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial-container {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    display: none;
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    border: 2px solid var(--gold);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .15);
+    text-align: center;
+    width: 100%;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+.testimonial p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial h3 {
+    color: var(--navy);
+    margin-bottom: .5rem;
+}
+
+.stars {
+    color: var(--gold);
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+}
+
+.testimonial-btn {
+    background: var(--navy);
+    color: var(--ivory);
+    border: 2px solid var(--gold);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: .2s;
+}
+
+.testimonial-btn:hover {
+    background: var(--gold);
+    color: var(--deep-navy);
 }
