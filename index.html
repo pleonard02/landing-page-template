@@ -8,33 +8,45 @@
 </head>
 <body>
     <!-- HEADER  -->
-    <header>
+<header class="site-header">
+    <div class="header-container">
         <div class="logo-area">
             <h1>Sweet Home Chicago</h1>
             <p class="tagline">Exploring the Architecture, History, & Legends of Chicago</p>
         </div>
-        <!-- NAV  -->
+    <!-- NAV -->
         <nav class="navbar">
-            <button class="menu-btn">✦ Navigation</button>
-
+            <button class="menu-btn">☰ Navigation</button>
             <ul class="dropdown-menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#legends">Legends</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+</header>
     <!-- MAIN  -->
     <main>
-        <div class="hero">
-            <h2>Chicago's Carbide & Carbon Building</h2>
-            <img src="images/chicago_skyline.jpg" alt="Carbide and Carbon Building in Chicago" width="500">
-            <audio id="music">
-                <source src="./audio/baronsaiband-my-slow-chicago-blues-song-339298.mp3" type="audio/mpeg" loop>
-            </audio>
-            <button id="musicBtn">Listen to Chicago Blues</button>
-        </div>
-        <section class="contact-section">
+        <section class="hero" id="home">
+    <img
+        src="images/chicago_skyline.jpg"
+        alt="Chicago skyline at dusk"
+        class="hero-img">
+
+    <div class="hero-overlay">
+        <h2>Discover Chicago</h2>
+        <p>Architecture • History • Legends</p>
+        <audio id="music">
+            <source
+                src="./audio/baronsaiband-my-slow-chicago-blues-song-339298.mp3"
+                type="audio/mpeg">
+        </audio>
+        <button id="musicBtn">🎵 Chicago Blues</button>
+    </div>
+</section>
+        <section class="contact-section" id="contact">
             <h2>Contact Us</h2>
                 <form class="contact-form">
                     <label for="name">Name</label>
